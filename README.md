@@ -3,4 +3,4 @@ SPA which implements various APIs for a customised live status information dashb
 
 Wireframes:
 
-![geoDash - Home](wireframes/geoDash - homeScreen.png "Home screen")
+![geoDash - Home](/wireframes/geoDash - homeScreen.png?raw=true "Home screen")
