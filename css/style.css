@@ -1,0 +1,168 @@
+/* Main stylesheet
+    
+   By: Mehran Joya
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900');
+
+
+body, html {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #4589D9 !important;
+}
+
+.container {max-width: 800px;}
+
+#locateMe :hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#msg {
+    font-size: 20px;
+    color: white;
+}
+
+#data {
+    display: none;
+}
+
+.sectionTitle {
+    margin: 0;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 8px;
+    color: #a5a5a5;
+    text-align: center;
+}
+
+#userName {
+    text-align: center;
+    padding: 20px;
+    font-family: roboto;
+    font-size: 20px;
+    color: white;
+}
+
+.dateTime {
+    background-color: #3B78C0;
+    padding: 20px 0;
+    margin: 0;
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.dateTime #date {
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: -20px;
+    text-transform: uppercase;
+}
+
+#geo {
+    text-align: center;
+    color: white;
+    padding: 35px 0;
+}
+
+#geo span {
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+}
+
+#weather {
+    background: #F4F4F4;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#news {
+    background: #FFF;
+    padding: 20px;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#news .row:hover{
+    background: #f9f9f9;
+}
+
+#news .row {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 10px
+}
+#news img {
+    width: 100px;
+}
+
+#news .col-xs-8 {
+    padding-left: 22px
+}
+
+#news a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#news span {
+    font-weight: 400;
+    font-size: 9px;
+}
+
+#tfl {
+    background: #F4F4F4;
+    padding: 20px;
+    font-family: roboto;
+}
+
+#tfl .row {
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+
+#tfl .row:hover {background-color: #f9f9f9;}
+
+#tfl #stopLetter {
+    font-size: 11px;
+    font-weight: 800;
+    color: red;
+}
+
+#tfl #stopName {
+    font-weight: 500;
+}
+
+#tfl #towards {
+    font-weight: 300;
+    font-size: 12px
+}
+
+#tfl #buses {
+    font-weight: 500;
+    font-size: 12px
+}
+
+#quote {
+    background-color: #3B78C0;
+    padding: 20px;
+    font-family: roboto;
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+#quote span {
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 1px solid #ffffff1c;
+    padding-bottom: 2px;
+    display: block
+}

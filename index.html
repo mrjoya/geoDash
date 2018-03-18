@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>geoDash - Smart utility on the move </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div style="position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -50px;
+                    margin-left: -50px;
+                    width: 100px;
+                    cursor: pointer;
+                    height: 100px;" class="text-center" id="locateMe" onclick="getLocation()">
+                <img width="70px" src="img/icons/locator.png"><br><span style="color: white; font-family: roboto; font-weight: 100; font-style: italic;">Tap to locate</span></div>
+
+        <div id="msg" style="position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: -50px;
+                    margin-left: -50px;
+                    width: 100px;
+                        display: none;
+                    
+                    height: 100px;"></div>
+
+        <div class="container" id="data">
+
+            <div style="display: none;" id="userName">Welcome Ralph,</div>
+
+
+            <div class="text-center dateTime">
+                <div id="time"></div>
+                <div id="date"></div>
+            </div>
+
+            <div id="geo"></div>
+
+
+            <div id="weather"></div><br><br>
+            <div id="news"></div><br><br>
+
+            <div id="tfl"><br></div><br><br>
+            <div id="quote"></div>
+
+        </div>
+
+    </body>
+    <script type="text/javascript" src="js/geo.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/tfl.js"></script>
+    <script type="text/javascript" src="js/weather.js"></script>
+    <script type="text/javascript" src="js/news.js"></script>
+    <script type="text/javascript" src="js/quote.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+</html>
